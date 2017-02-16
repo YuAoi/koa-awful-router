@@ -1,0 +1,38 @@
+{
+  "name": "koa-url-router",
+  "version": "0.0.1",
+  "description": "Router middleware for koa.",
+  "main": "dist/router.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/YuAoi/koa-url-router.git"
+  },
+  "keywords": [
+    "koa",
+    "router",
+    "route",
+    "middleware"
+  ],
+  "author": "YuAoi <zibo.z.liu@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/YuAoi/koa-url-router/issues"
+  },
+  "homepage": "https://github.com/YuAoi/koa-url-router#readme",
+  "devDependencies": {
+    "babel-core": "^6.23.1",
+    "babel-plugin-external-helpers": "^6.22.0",
+    "babel-plugin-transform-async-to-generator": "^6.22.0",
+    "babel-plugin-transform-es2015-classes": "^6.23.0",
+    "babel-preset-es2015": "^6.22.0",
+    "babel-preset-es2015-rollup": "^3.0.0",
+    "babel-preset-es2017": "^6.22.0",
+    "babel-preset-stage-3": "^6.22.0",
+    "rollup-plugin-babel": "^2.7.1",
+    "rollup-plugin-json": "^2.1.0",
+    "rollup-watch": "^3.2.2"
+  }
+}
